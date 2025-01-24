@@ -32,6 +32,7 @@ function criaBotaoApagar (li) {
 
 
 function criaTarefa(textoInput) { 
+    const li = criaLi();
     li.innerText = textoInput; 
     Tarefas.appendChild(li); 
     limpaInput();
